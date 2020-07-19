@@ -8,8 +8,8 @@ class Instructor:
         self.cohort = cohort
         self.speciality = specialty
         
-    def add_exercises(self, student, exercises):
-        student.exercises.extend([exercises])
+    def add_exercises(self, student, exercise):
+        student.exercise.extend(exercise)
 
 
       
