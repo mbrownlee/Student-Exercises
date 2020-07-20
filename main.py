@@ -21,6 +21,11 @@ jane = Student("Jane", "Ball", "jane_awesome", c41)
 mike = Student("Mike", "Wolf", "wolfman", c40)
 marge = Student("Marge", "Simpsom", "bluehair", c41)
 
+mike.full_name
+joe.full_name
+jane.full_name
+marge.full_name
+
 students = [joe, jane, mike, marge]
 for person in students:
     print(f" * {person.first_name} {person.last_name}")
