@@ -5,4 +5,4 @@ class Exercise:
         self.language = language
 
     def __str__(self):
-        return f"{self.name}"
+        return f"The {self.name} exercise emphasises {self.language}."
