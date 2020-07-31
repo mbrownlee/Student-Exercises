@@ -9,5 +9,8 @@ class Instructor(NSSPerson):
     def add_exercises(self, student, exercise):
         student.exercise.extend(exercise)
 
+    def __str__(self):
+        return f"{self.first_name} {self.last_name}, {self.slack_handle} on slack, is a instructor in {self.cohort}."
+
 
       
